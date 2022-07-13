@@ -1,0 +1,229 @@
+body {
+  box-sizing: border-box;
+  background-color: #979797;
+  padding: 2.4rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
+  font-weight: 700;
+}
+
+header {
+  display: flex;
+  border: black 2px solid;
+  margin: 1rem;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.book-container div {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.contact-us p {
+  font-size: 30px;
+}
+
+.book-container div p {
+  flex-grow: 9;
+  padding-left: 20px;
+}
+
+.book-container div:nth-child(odd) {
+  background-color: rgb(205, 197, 197);
+}
+
+.book-container {
+  display: block;
+  padding: 1rem;
+  width: auto;
+  background-color: white;
+  margin: 30px auto;
+  border: 2px solid black;
+  box-shadow: 2px 5px 5px black;
+}
+
+.books-list {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  width: 100%;
+}
+
+.books-list button {
+  width: 80px;
+  height: 30px;
+  border: 3px solid #1a1a1a;
+}
+
+.title {
+  text-align: center;
+  margin-top: 2.4rem;
+  margin-bottom: 1.8rem;
+  font-size: 4rem;
+}
+
+.delete {
+  padding: 0.4rem;
+  border: 2px solid #000;
+  background: #fff;
+  font-weight: 700;
+  box-shadow: 0.4rem 0.2rem 0.2rem #000;
+  z-index: 9;
+  margin-left: auto;
+  display: flex;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.texts {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 0;
+  font-size: 15px;
+  padding: 1rem;
+  position: absolute;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 4.4rem;
+  margin-top: 3.6rem;
+  font-size: 3.5rem;
+}
+
+.btn-submit {
+  align-self: flex-end;
+  background: none;
+  border: 2px solid #000;
+  font-weight: 700;
+  box-shadow: 0.4rem 0.2rem 0.2rem #000;
+  margin-top: 5px;
+}
+
+.divider {
+  color: black;
+  margin-top: 1.5rem;
+  margin-left: 45%;
+  margin-right: 45%;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+}
+
+.add-book {
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: end;
+  padding-bottom: 50px;
+}
+
+.add-book h2 {
+  text-align: center;
+}
+
+.add-book .input {
+  width: 100%;
+  border: 2px solid black;
+  padding: 5px 0 5px 5px;
+  margin-top: 15px;
+  color: black;
+  font-weight: 600;
+  box-shadow: 2px 2px 2px black;
+}
+
+.form-control {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 0;
+  font-size: 3.5rem;
+  padding-left: 2rem;
+}
+
+.date-p {
+  text-align: right;
+}
+
+.hide {
+  display: none;
+}
+
+.logo {
+  text-decoration: none;
+  color: black;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-right: auto;
+}
+
+.link {
+  text-decoration: none;
+  list-style: none;
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #000;
+}
+
+.link a:hover,
+.link a:focus {
+  color: dodgerblue;
+}
+
+.navbar ul li:first-child,
+.navbar ul li:nth-child(2) {
+  border-right: 1px solid black;
+}
+
+.contact-us {
+  text-align: center;
+}
+
+.contact-us ul {
+  list-style: none;
+  text-decoration: none;
+  line-height: 4rem;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+#contact-us h4 {
+  color: black;
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+footer {
+  border: 1px solid black;
+  position: fixed;
+  background-color: #f8f9fa;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+  height: 6rem;
+  padding: 1.5rem;
+}
+
+footer h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
