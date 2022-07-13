@@ -1,53 +1,47 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Awesome Books
 
-A plain javascript project that can keep track of a list of books utilizing localStorage. The project utilizes MVC architecture.
+In this project I crated a simple website to add and remove books from a list. in addition to that all the books which are added to the list will be saved automaticalluy to the localstorage, thus the file can be seen even if the page is reloaded.
 
-## Built With
+In this project I have used linter for HTML and CSS and Javascript, to make sure there are no linter errors on the code. This Awesome Books website contains Three main functionalities:
 
-- Languages: HTML & Javascript
-- Technologies: Visual Studio code
-- Other technologies: esLint
+- Add Book
+- Save the added Book in local storage
+- Remove Book
 
-## To get a local copy up and running follow these simple example steps.
+# Built With
 
-### Prerequisites
+HTML
+CSS
+Javascript
 
-- A browser
-- A version control like git
-- A text editor
+# Live Demo (if available)
 
-### step 1
+(Not Available)
 
--[Click here](https://github.com/milen-ale/awesome-books.git) to get to my repository in Github.
--Copy the link on the code button on the right (green in color).
--Clone the link in your local folder
+# Getting Started
 
-### Step 2
+To successfully utilize this project first of all you need to clone or download the repository. Next, open the index.html file to check the website’s main page. If you want to add or edit the files you can do that by simply opening the file folder in VS code.
 
-- Navigate to the cloned project
-  -Open index.html file
+# prerequisites:
 
-## Authors
+. VS code . HTML, CSS and Javascript extension . node.js
 
-👤 **Milen Alebel**
-👤 **Patrick Maina**
+# Authors
 
-## 🤝 Contributing
+👤 Milen Alebel
 
+GitHub: @milen-ale
+🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/PNdunguMaina/Module-1-capstone-project/issues).
+Feel free to check the issues page.
 
-## Show your support
-
+Show your support
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-[Microverse] (https://www.microverse.org/)
-
-## 📝 License
-
-This project is MIT licensed.
+Acknowledgments
+Hat tip to anyone whose code was used
+Inspiration
+etc
+📝 License
+This project is not licensed.
