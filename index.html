@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>book form</title>
+  </head>
+  <body>
+
+      <!-- navbar section -->
+      <header>
+        <a class="logo" href="">Awesome Books</a>
+        <nav>
+          <ul class="navbar">
+            <li><a class="list link" href="#list-main">List</a></li>
+            <li><a class="add_new link" href="#add-book">Add New</a></li>
+            <li><a class="contact link" href="#contact-us">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+      <div class="date">
+        <p class="date-p"></p>
+      </div>
+
+        <section class="list-main  hide" id="list-main">
+          <h1 class="title">All Awesome books</h1>
+          <div class="list-form book-container"></div>
+        </section>
+     
+
+      <section id="add-book" class="add-book hide">
+        <h2 class="form-title">Add a new book</h2>
+        <form id="book-form">
+            <input
+              type="text"
+              id="title"
+              class="form-control"
+              placeholder="Title"
+            />
+        </br>
+            <input
+              type="text"
+              id="author"
+              class="form-control"
+              placeholder="Author"
+            />
+            <button class="btn-submit" type="submit">Add</button>
+        </form>
+      </section>
+
+      <!-- contact section -->
+      <section id="contact-us" class="contact-us  hide">
+        <h4>Contact information</h4>
+        <p>
+          Do have any questions or you want to say "Hello"? <br />
+          You can reach out to us!
+        </p>
+        <ul>
+          <li>Our email: mail@mail.com</li>
+          <li>Our phone number: 0727699538</li>
+          <li>Our address: Streetname 22, 84503 City, Country</li>
+        </ul>
+      </section>
+      <!-- footer section -->
+      <footer>
+        <h3>CopyRight © 2022  Milen</h3>
+ 
+    <script type="module" src="script/index.js"></script>
+  </body>
+</html>
